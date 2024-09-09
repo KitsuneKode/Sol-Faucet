@@ -1,3 +1,5 @@
+//this is wahta the basic airdrop component looks like in the tutorial
+
 import { useWallet, useConnection } from "@solana/wallet-adapter-react";
 import { LAMPORTS_PER_SOL } from "@solana/web3.js";
 import { useState } from "react";

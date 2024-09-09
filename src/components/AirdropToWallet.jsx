@@ -1,3 +1,5 @@
+//custom component to request airdrop to wallet
+
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { useWallet } from "@solana/wallet-adapter-react";

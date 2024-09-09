@@ -1,8 +1,21 @@
-# React + Vite
+# Sol-Faucet
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to Sol-Faucet! This project is a simple faucet for the Solana blockchain. It allows users to request a small amount of SOL tokens for testing and development purposes.
+Strictly for devnet use only.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To get started with Sol-Faucet, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/kitsunekode/sol-faucet.git`
+2. Install the required dependencies: `npm install`
+3. Start the server: `npm run dev`
+4. Access the faucet in your browser at `http://localhost:3000`
+
+## Usage
+
+Once the server is running and you have accessed the faucet in your browser, you can request SOL tokens by clicking the "Request Tokens" button. The requested tokens will be sent to your configured Solana wallet address.
+
+## Author
+
+This project was created by [KitsuneKode](https://github.com/kitsunekode).
