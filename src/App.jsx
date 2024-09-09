@@ -12,7 +12,7 @@ import { WalletModalProvider } from "@solana/wallet-adapter-react-ui";
 import "./App.css";
 // import Airdrop from "./components/Airdrop";
 import AirdropToWallet from "./components/AirdropToWallet";
-
+import { Analytics } from "@vercel/analytics/react";
 function App() {
   return (
     <>
@@ -24,6 +24,7 @@ function App() {
         <WalletProvider wallets={[]} autoConnect>
           <WalletModalProvider>
             <AirdropToWallet />
+            <Analytics />
           </WalletModalProvider>
         </WalletProvider>
       </ConnectionProvider>
